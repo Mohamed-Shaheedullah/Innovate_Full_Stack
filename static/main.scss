@@ -1,0 +1,47 @@
+
+body {
+  background-color: rgb(157, 233, 233);
+}
+
+.profiles {
+  height: 25%;
+  width: 25%;
+  /* % is relative to parent
+vh is relative to size of screen*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+nav,
+h1,
+h2,
+footer,
+.cntr {
+    text-align: center;
+  }
+  
+header {
+  background-color: rgb(56, 104, 106);
+  color: aliceblue;
+  }
+
+.carousel-inner img {
+    margin: auto ;
+  }
+
+
+.car-caption-bird {
+  color: rgb(8, 8, 8);
+  }
+      
+.car-caption-bird a {
+  color: orange;
+  }
+  
+.car-caption * {
+  color: white;
+  }
+  
+

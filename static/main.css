@@ -1,0 +1,43 @@
+body {
+  background-color: #9de9e9;
+}
+
+.profiles {
+  height: 25%;
+  width: 25%;
+  /* % is relative to parent
+vh is relative to size of screen*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav,
+h1,
+h2,
+footer,
+.cntr {
+  text-align: center;
+}
+
+header {
+  background-color: #38686a;
+  color: aliceblue;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.car-caption-bird {
+  color: #080808;
+}
+
+.car-caption-bird a {
+  color: orange;
+}
+
+.car-caption * {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
