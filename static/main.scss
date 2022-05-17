@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+font-family: 'Cabin', sans-serif;
+}
 
 body {
   background-color: rgb(157, 233, 233);
 }
 
 .profiles {
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
   /* % is relative to parent
 vh is relative to size of screen*/
   display: block;

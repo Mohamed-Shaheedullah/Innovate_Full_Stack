@@ -3,7 +3,8 @@
     <body>
         {% block content %}
     <h3>Magic Johnson</h3>
-    <img class='profiles' src="./../static/images/malingering_CC_BY_NC_ND_2-0.jpg" alt="Magic Johnson picture">
-    <p>One the games most famous players Magic Johnson was known for his passing ability and smile.  At 6"9' he was one of the tallest players ever to play the position of point guard.  He was born on 14th August 1959 in Michigan.  Magic was signed to the Los Angeles Lakers and his style of play premiered the 'Showtime' era at the Lakers.  Another great player who played with Magic was Kareem Abdul Jabbar, famous for his 'skyhook' shot.   </p>
+    <img class ='profiles' src="{{url_for('static', filename='images/malingering_CC_BY_NC_ND_2-0.jpg')}}" alt="Magic Johnson picture">
+    
+    <p>One the game's most famous players Magic Johnson was known for his passing ability and smile.  At 6"9' he was one of the tallest players ever to play the position of point guard.  He was born on 14th August 1959 in Michigan.  Magic was signed to the Los Angeles Lakers and his style of play premiered the 'Showtime' era at the Lakers.  Another great player who played with Magic was Kareem Abdul Jabbar, famous for his 'skyhook' shot.   </p>
     {% endblock %}
 </body>
