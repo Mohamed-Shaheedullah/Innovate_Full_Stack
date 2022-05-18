@@ -2,18 +2,39 @@
 
 <body>
     {% block content %}
-<h3>Today's Players</h3>
-<h5>Stephen Curry</h5>
-<p>
-    Stephen Curry of the Golden State Warriors is acknowledged to be the greatest shooter the game has ever known.  A winner of two NBA rings he recently (2022) beat the all-time record for three pointers scored in the NBA, previously held by Ray Allen.  In fact Ray Allen and Reggie Miller both admitted that Stephen Curry was the best shooter of all time.  
-</p>
-<h5>giannis antetokounmpo</h5>
-<p>
-    Giannis Antetokounmpo was selling sunglasses on the streets of Athens at aged 15 to support his parents.  Now he has a 242 milliion dollar contract with the Milwaukee  Bucks NBA team, the reigning 2021-2022 champions.  He is 6"11' but has the ball handling skills of a much shorter player.
-</p>
-<h5>Ja Morant</h5>
-<p>
-    Ja Morant of the Memphis Grizzlies is known as a spectacular player people love to watch.  In the 2020-2021 season he performed a 360 degree mid air spin on a dunk. 
-</p>
-{% endblock %}
+    <h3>Today's Players</h3>
+    <div class = "tplayer">
+        <img class ='profiles' src="{{url_for('static', filename='images/Stephen_Curry_Shooting.jpg')}}"  alt="Stephen Curry picture">
+        <div class="player_text">
+            <h5>Stephen Curry</h5>
+            <p>
+            Stephen Curry of the Golden State Warriors is acknowledged to be the greatest shooter the game has ever known.  A winner of two NBA rings he recently (2022) beat the all-time record for three pointers scored in the NBA, previously held by Ray Allen.  In fact Ray Allen and Reggie Miller both admitted that Stephen Curry was the best shooter of all time.  
+            </p>
+            <caption>"File:Stephen Curry Shooting (cropped).jpg" by Cyrus Saatsaz is licensed under CC BY-SA 4.0. <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=openverse">View a copy of this license</a></caption>
+        </div>
+    </div>
+    <div class = "tplayer">
+        <img class ='profiles' src="{{url_for('static', filename='images/Giannis_Antetokounmpo.jpg')}}"  alt="Giannis Antetokounmpo picture">
+        <div class="player_text">
+            <h5>giannis antetokounmpo</h5>
+            <p>
+            Giannis Antetokounmpo was selling sunglasses on the streets of Athens at aged 15 to support his parents.  Now he has a 242 million dollar contract with the Milwaukee  Bucks NBA team, the reigning 2021-2022 champions.  He is 6"11' but has the ball handling skills of a much shorter player.
+        </p>
+        <caption>"File:Giannis Antetokounmpo (24845003687) (cropped).jpg" by Keith Allison from Hanover, MD, USA is licensed under CC BY-SA 2.0.
+        <a href="https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse">View a copy of this license</a></caption>
+        </div>
+    </div>
+    <div class = "tplayer">
+        <img class ='profiles' src="{{url_for('static', filename='images/luka.jpg')}}"  alt="Luka Doncic picture">
+        <div class="player_text">
+            <h5>Luka Doncic</h5>
+            <p>
+                One of the most exciting young players in the league, he plays for the Dallas Mavericks. A native of Slovenia, he plays the point guard, shooting guard position.
+            </p>
+            <caption>"Luka Doncic" by Javier Mendia García is licensed under CC BY 2.0<a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">View a copy of this license   </a></caption>
+        </div>
+    </div>
+
+    {% endblock %}
 </body>
+
