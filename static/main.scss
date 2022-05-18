@@ -4,6 +4,10 @@
 font-family: 'Cabin', sans-serif;
 }
 
+.mycaption {
+  font-size:  0.5em;
+  }
+
 body {
   background-color: rgb(157, 233, 233);
 }
@@ -16,16 +20,14 @@ body {
   width: 15%;
   /* % is relative to parent
 vh is relative to size of screen*/
-  // display: block;
-  // margin-left: auto;
-  // margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .car-profiles  {
   height: 50%;
   width: 50%;
-  /* % is relative to parent
-  vh is relative to size of screen*/
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +41,7 @@ h2,
 h3,
 h5,
 footer,
+.mycaption,
 .cntr {
     text-align: center;
   }
@@ -52,8 +55,8 @@ header {
 
 
 .car-caption-bird {
-  color: rgb(8, 8, 8);
-  }
+  color: rgb(8, 8, 8);  
+}
       
 .car-caption-bird a {
   color: orange;
@@ -66,8 +69,23 @@ header {
 
   .tplayer {
     display: flex; /* or inline-flex */
+   
   }
 
-  caption * {
-  font-size:  0.5em;
+  .player_text {
+    padding-left: 8px; 
+    padding-right: 8px;
+  }
+
+  .great_players_txt {
+    padding: 8px;
+  }
+.index_great_players_txt {
+  padding-left: 8px; 
+  padding-right: 8px;
+}
+
+
+  a:hover {
+    background-color: red;
   }
